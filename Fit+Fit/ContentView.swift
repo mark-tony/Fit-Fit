@@ -9,7 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("The Journey of a Thousand Miles begins with a Single Step - Mark Tony")
+            .font(.headline)
+            .fontWeight(.semibold)
+            .foregroundColor(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 1.0))
+            .multilineTextAlignment(.center)
             .padding()
     }
 }
